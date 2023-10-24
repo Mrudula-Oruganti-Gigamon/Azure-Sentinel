@@ -207,6 +207,43 @@
   {
     "Name": "keyid_s",
     "Type": "string"
+  },
+  {
+    "Name": "app_name_s",
+    "Type": "string"
+  },
+  {
+    "Name": "http_server_agent_s",
+    "Type": "string"
+  },
+  {
+    "Name": "ssl_issuer_s",
+    "Type": "string"
+  },
+  {
+    "Name": "ssl_common_name_s",
+    "Type": "string"
+  },
+  {
+    "Name": "ssl_validity_not_after_s",
+    "Type": "string"
+  },
+  {
+    "Name": "start_time_s",
+    "Type": "string"
+  },
+  {
+    "Name": "src_ip_s",
+    "Type": "string"
+  },
+  {
+    "Name": "dst_ip_s",
+    "Type": "string"
+  },
+  {
+    "Name": "dst_ip_s",
+    "Type": "string"
   }
+  
 ]
 }
