@@ -5,7 +5,7 @@
     "location": "[parameters('workspace-location')]",
     "properties": {
         "streamDeclarations": {
-            "Custom-gigamontelemetryv2": {
+            "Custom-Gigamon": {
                 "columns": [
                     { "name": "TimeGenerated", "type": "datetime" },
                     { "name": "RawData", "type": "string" },
@@ -157,13 +157,13 @@
         "dataFlows": [
             {
                 "streams": [
-                    "Custom-gigamontelemetryv2"
+                    "Custom-Gigamon"
                 ],
                 "destinations": [
                     "gigamonws1"
                 ],
                 "transformKql": "source | extend TimeGenerated = now()",
-                "outputStream": "Custom-Gigamon_DCR"
+                "outputStream": "Custom-GigamonV2_CL"
             }
         ],
         "dataCollectionEndpointId": "{{dataCollectionEndpointsId}}"
