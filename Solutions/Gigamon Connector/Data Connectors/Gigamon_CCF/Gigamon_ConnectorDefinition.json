@@ -4,6 +4,7 @@
     "type": "Microsoft.SecurityInsights/dataConnectorDefinitions",
     "location": "{{location}}",
     "kind": "Customizable",
+    "pollingConfig": null,
     "properties": {
         "connectorUiConfig": {
             "id": "GigamonDefinition",
