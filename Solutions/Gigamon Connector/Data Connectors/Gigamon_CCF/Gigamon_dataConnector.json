@@ -4,7 +4,7 @@
   "type": "Microsoft.SecurityInsights/dataConnectors",
   "kind": "Push",
   "properties": {
-    "connectorDefinitionName": "GigamonTelemetry",
+    "connectorDefinitionName": "GigamonDefinition",
     "dcrConfig": {
       "streamName": "Custom-Gigamon",
       "dataCollectionEndpoint": "[[parameters('dcrConfig').dataCollectionEndpoint]",
